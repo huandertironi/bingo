@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Bingo Junino</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />  
+</head>
+
+<body>
+
+  <div class="bandeirinhas"></div>
+
+  <div class="button-container">
+    <button onclick="sortearNumero()">Sortear próximo número</button>
+  </div>
+
+  <div class="container">
+    <div id="number-area">
+      <div id="frase"></div>
+      <div id="number">--</div>
+    </div>
+    <div id="numbers-list">
+      <div class="coluna" id="col-b">
+        <div class="coluna-header">B</div>
+      </div>
+      <div class="coluna" id="col-i">
+        <div class="coluna-header">I</div>
+      </div>
+      <div class="coluna" id="col-n">
+        <div class="coluna-header">N</div>
+      </div>
+      <div class="coluna" id="col-g">
+        <div class="coluna-header">G</div>
+      </div>
+      <div class="coluna" id="col-o">
+        <div class="coluna-header">O</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
